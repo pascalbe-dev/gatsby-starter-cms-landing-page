@@ -1,5 +1,5 @@
-import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
+import * as React from "react";
 
 const pageStyles = {
   color: "#232129",
@@ -139,7 +139,7 @@ const links = [
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main style={pageStyles}>
-      <h1 style={headingStyles}>
+      <h1 style={headingStyles} className="text-3xl">
         Congratulations
         <br />
         <span style={headingAccentStyles}>
