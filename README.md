@@ -42,8 +42,14 @@
     - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
 
-## 🚀 Quick start (Netlify)
+## Deploying your site to Netlify
 
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+- make sure, you have a [Netlify](https://app.netlify.com/login) account
+- allow the Netlify Github app to access your repositories ([Link](https://github.com/apps/netlify/installations/new))
+- add a new site in [Netlify](https://app.netlify.com/)
+  - import from existing project
+  - authorize Netlify
+  - choose this repository
+  - keep the default settings
+  - deploy the site
+- adjust your site name in the site settings
