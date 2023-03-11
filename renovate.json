@@ -1,5 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base"],
-  "rangeStrategy": "pin"
+  "extends": [":pinVersions", "schedule:earlyMondays", "group:all"],
+  "labels": ["dependencies"],
+  "prConcurrentLimit": 3,
+  "commitBody": "[skip ci]",
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "automerge": true
+    }
+  ]
 }
