@@ -9,7 +9,7 @@ const Layout: React.FC<PageProps> = ({ children }) => (
         to="/"
         className="px-8 flex items-center gap-8 text-xl lg:text-3xl font-serif"
       >
-        <img src={logo} alt="Awesome Product" className="w-10 lg:w-20" />
+        <img src={logo} alt="Awesome Product" className="w-8 lg:w-12" />
         <title className="flex gap-2">
           <span>Awesome</span>
           <span className="text-gray-500">Product</span>
