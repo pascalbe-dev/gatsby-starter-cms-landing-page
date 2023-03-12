@@ -53,3 +53,11 @@
   - keep the default settings
   - deploy the site
 - adjust your site name in the site settings
+
+## Customizing the fonts
+
+- install your fonts via [FontSource](https://fontsource.org/) (e.g. `npm install @fontsource/roboto`)
+- uninstall the fonts you no longer need (see package.json) (e.g. `npm uninstall @fontsource/itim`)
+- adjust the imported fonts in the [gatsby-browser.ts](gatsby-browser.ts) file
+- adjust the tailwind defaults in the [tailwind.config.js](tailwind.config.js) file
+- restart the gatsby development server
