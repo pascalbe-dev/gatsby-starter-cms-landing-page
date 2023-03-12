@@ -13,6 +13,8 @@ This site uses these technologies to achieve a great developer experience and ea
 - fonts via [Google Fonts](https://fonts.google.com/) (but served locally or via Netlify)
 - formatting via [Prettier](https://prettier.io/)
 - dependency updates via [Renovate](https://github.com/renovatebot/renovate)
+- commit message standardization via [Conventional Commits](https://www.conventionalcommits.org/)
+  - enforcing of this standard via [CommitLint](https://commitlint.js.org/) and [husky](https://typicode.github.io/husky/)
 
 ## Local development
 
