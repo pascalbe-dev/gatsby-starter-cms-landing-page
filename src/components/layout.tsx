@@ -38,10 +38,14 @@ const Layout: React.FC<PageProps> = ({ children }) => (
           <span className="uppercase">Legal</span>
           <ul className="underline">
             <li>
-              <Link target="_blank">Privacy Policy</Link>
+              <Link to="/" target="_blank">
+                Privacy Policy
+              </Link>
             </li>
             <li>
-              <Link target="_blank">Imprint</Link>
+              <Link to="/" target="_blank">
+                Imprint
+              </Link>
             </li>
           </ul>
         </div>
