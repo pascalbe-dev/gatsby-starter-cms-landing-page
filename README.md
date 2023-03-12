@@ -1,48 +1,33 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal TypeScript Starter
-</h1>
+# Gatsby starter CMS landing page
 
-## 🚀 Quick start
+Use this starter, if you want to create a simple landing page for a product very quickly. Check out this sample page here: https://gatsby-starter-cms-landing-page.netlify.app/
 
-1.  **Create a Gatsby site.**
+## Used technologies
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+This site uses these technologies to achieve a great developer experience and easy editing:
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby -- -ts
-    ```
+- website creation framework [Gatsby](https://www.gatsbyjs.com/)
+- type checking during development via [Typescript](https://www.typescriptlang.org/)
+- website hosting via [Netlify](https://www.netlify.com/)
+- styling via [Tailwind CSS](https://tailwindcss.com/)
+- fonts via [Google Fonts](https://fonts.google.com/) (but served locally or via Netlify)
+- formatting via [Prettier](https://prettier.io/)
+- dependency updates via [Renovate](https://github.com/renovatebot/renovate)
 
-2.  **Start developing.**
+## Local development
 
-    Navigate into your new site’s directory and start it up.
+### Getting started
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+- create a new repository from the template on [GitHub](https://github.com/pascalbe-dev/gatsby-starter-cms-landing-page)
+- clone the repository
+- cd into the folder
+- install the dependencies via `npm ci`
+- start the development server via `npm start`
+- update the code to change the design and content
 
-3.  **Open the code and start customizing!**
+## One time set up
 
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.tsx` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-## Deploying your site to Netlify
+## Setting up the netlify deployment
 
 - make sure, you have a [Netlify](https://app.netlify.com/login) account
 - allow the Netlify Github app to access your repositories ([Link](https://github.com/apps/netlify/installations/new))
