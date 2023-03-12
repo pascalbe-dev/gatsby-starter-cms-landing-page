@@ -28,6 +28,7 @@
     "gatsby-source-filesystem": "5.7.0",
     "gatsby-transformer-remark": "6.7.0",
     "gatsby-transformer-sharp": "5.7.0",
+    "gatsby-plugin-scroll-reveal": "0.0.7",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
@@ -48,6 +49,9 @@
   "overrides": {
     "react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825": {
       "react": "18.2.0"
+    },
+    "gatsby-plugin-scroll-reveal": {
+      "react": "$react"
     }
   }
 }

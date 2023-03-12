@@ -7,7 +7,10 @@ const LandingSection: React.FC<PageProps> = () => (
   <section className="h-[calc(100vh-96px)] flex flex-col justify-around">
     <div className="hidden lg:block" />
     <div className="flex justify-between items-center gap-16 px-8 lg:px-24 py-8 lg:py-0">
-      <div className="flex-1 flex flex-col items-start gap-8">
+      <div
+        data-sal="slide-up"
+        className="flex-1 flex flex-col items-start gap-8"
+      >
         <h1 className="text-5xl font-serif">
           Increase conversion by up to 200%
         </h1>

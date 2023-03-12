@@ -27,6 +27,12 @@ This site uses these technologies to achieve a great developer experience and ea
 - start the development server via `npm start`
 - update the code to change the design and content
 
+### Adding animations on scroll
+
+The [gatsby-plugin-scroll-reveal](https://github.com/solublestudio/gatsby-plugin-scroll-reveal) is added to this template. With this plugin, it's easy to add animations, when the user scrolls through the page.
+
+To get started, follow [their usage guide](https://github.com/solublestudio/gatsby-plugin-scroll-reveal#usage).
+
 ## One time set up
 
 ## Setting up the netlify deployment

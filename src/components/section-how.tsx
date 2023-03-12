@@ -35,7 +35,7 @@ const HowSection: React.FC<PageProps> = () => (
         <h2 className="font-display text-3xl">
           How does Awesome Product work?
         </h2>
-        <ul className="flex-1 flex flex-col gap-4">
+        <ul data-sal="slide-left" className="flex-1 flex flex-col gap-4">
           {steps.map((vp) => (
             <li key={vp.title} className="flex flex-col gap-4 p-4">
               <h3 className="text-2xl">{vp.title}</h3>
