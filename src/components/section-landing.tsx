@@ -20,7 +20,7 @@ const LandingSection: React.FC<PageProps> = () => (
           automating 1:1 personalized post-click experiences for every customer.
         </p>
         <Link className="p-4 rounded-lg bg-teal-800 text-white" to="/">
-          Jetzt direkt loslegen
+          Get started
         </Link>
       </div>
       <div className="flex-1 hidden items-center justify-center lg:flex">
