@@ -18,8 +18,8 @@
     "format:check": "npx prettier --check ."
   },
   "dependencies": {
-    "@fontsource/itim": "5.0.5",
-    "@fontsource/lato": "5.0.5",
+    "@fontsource/itim": "5.0.8",
+    "@fontsource/lato": "5.0.8",
     "gatsby": "5.11.0",
     "gatsby-plugin-image": "3.11.0",
     "gatsby-plugin-manifest": "5.11.0",
@@ -35,16 +35,16 @@
   "devDependencies": {
     "@commitlint/cli": "17.6.7",
     "@commitlint/config-conventional": "17.6.7",
-    "@percy/cli": "1.26.2",
-    "@types/node": "20.4.5",
-    "@types/react": "18.2.17",
+    "@percy/cli": "1.26.3",
+    "@types/node": "20.4.8",
+    "@types/react": "18.2.18",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.14",
     "gatsby-plugin-percy": "1.1.0",
     "gatsby-plugin-postcss": "6.11.0",
     "husky": "8.0.3",
     "postcss": "8.4.27",
-    "prettier": "3.0.0",
+    "prettier": "3.0.1",
     "tailwindcss": "3.3.3",
     "typescript": "5.1.6"
   },
