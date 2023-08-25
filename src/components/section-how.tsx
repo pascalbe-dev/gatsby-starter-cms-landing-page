@@ -21,25 +21,20 @@ const steps: { title: string; description: string }[] = [
 ];
 
 const HowSection: React.FC<PageProps> = () => (
-  <section
-    id="how"
-    className="bg-teal-800 flex flex-col gap-8 px-8 lg:px-24 py-8 lg:py-16 text-white"
-  >
-    <div className="flex-1 flex items-center justify-between gap-16">
+  <section id="how" className="size-full bg-primary text-white">
+    <div className="size-lg flex items-center justify-between gap-16">
       <img
         src={how}
         alt="Step to get the value from Awesome Product"
-        className="min-h-[300px] max-h-[500px] hidden lg:block"
+        className="hidden max-h-[500px] min-h-[300px] lg:block"
       />
       <div className="flex flex-col justify-between gap-8">
-        <h2 className="font-display text-3xl">
-          How does Awesome Product work?
-        </h2>
-        <ul data-sal="slide-left" className="flex-1 flex flex-col gap-4">
+        <h2 className="headline4">How does Awesome Product work?</h2>
+        <ul data-sal="slide-up" className="flex flex-1 flex-col gap-4">
           {steps.map((vp) => (
             <li key={vp.title} className="flex flex-col gap-4 p-4">
-              <h3 className="text-2xl">{vp.title}</h3>
-              <p className="text-gray-300">{vp.description}</p>
+              <h3 className="headline6">{vp.title}</h3>
+              <p className="text-emph-md-negative">{vp.description}</p>
             </li>
           ))}
         </ul>

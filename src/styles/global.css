@@ -48,15 +48,18 @@ html {
     @apply text-[10px] font-normal uppercase tracking-wider;
   }
   .btn-primary {
-    @apply button rounded-lg bg-teal-800 p-4 text-white;
+    @apply button rounded-lg bg-primary p-4 text-white;
   }
   .text-emph-md {
     @apply text-black/80;
   }
+  .text-emph-md-negative {
+    @apply text-white/80;
+  }
   .size-lg {
-    @apply m-auto max-w-[96rem];
+    @apply m-auto max-w-[96rem] py-8 lg:py-16;
   }
   .size-full {
-    @apply w-full;
+    @apply w-full px-4 py-8 lg:py-16;
   }
 }
