@@ -63,16 +63,16 @@ html {
     @apply text-white/60;
   }
   .size-sm {
-    @apply m-auto max-w-[48rem] px-4 py-8 lg:w-[48rem] lg:py-16;
+    @apply max-w-[48rem] px-4 py-8 lg:m-auto lg:w-[48rem] lg:py-16;
   }
   .size-md {
-    @apply m-auto max-w-[64rem] px-4 py-8 lg:w-[64rem] lg:py-16;
+    @apply max-w-[64rem] px-4 py-8 lg:m-auto lg:w-[64rem] lg:py-16;
   }
   .size-lg-reduced {
-    @apply m-auto max-w-[96rem] px-4 lg:w-[96rem];
+    @apply max-w-[96rem] px-4 lg:m-auto lg:w-[96rem];
   }
   .size-lg {
-    @apply m-auto max-w-[96rem] px-4 py-8 lg:w-[96rem] lg:py-16;
+    @apply max-w-[96rem] px-4 py-8 lg:m-auto lg:w-[96rem] lg:py-16;
   }
   .input {
     @apply invalid:border-error mt-2 w-full rounded-lg bg-gray-100 p-3 text-gray-900 focus:outline-none;
