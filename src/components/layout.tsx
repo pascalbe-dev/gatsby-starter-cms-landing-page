@@ -8,10 +8,10 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
       <div className="size-lg-reduced flex items-center justify-between">
         <Link to="/" className="headline4 flex items-center gap-8 font-serif">
           <img src={logo} alt="YOURProduct" className="w-8 lg:w-12" />
-          <title className="flex gap-2">
+          <div className="flex gap-2">
             <span>YOUR</span>
             <span className="text-emph-sm">Product</span>
-          </title>
+          </div>
         </Link>
         <nav>
           <ul className="headline6 flex flex-row items-center gap-8">
