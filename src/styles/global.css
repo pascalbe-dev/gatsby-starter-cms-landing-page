@@ -53,10 +53,16 @@ html {
   .text-emph-md {
     @apply text-black/75;
   }
+  .text-emph-sm {
+    @apply text-black/60;
+  }
   .text-emph-md-negative {
     @apply text-white/75;
   }
+  .size-lg-short {
+    @apply m-auto max-w-[96rem] px-4 lg:w-[96rem];
+  }
   .size-lg {
-    @apply m-auto max-w-[96rem] px-4 py-8 lg:py-16;
+    @apply m-auto max-w-[96rem] px-4 py-8 lg:w-[96rem] lg:py-16;
   }
 }

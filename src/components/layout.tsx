@@ -4,27 +4,26 @@ import logo from "../images/logo.svg";
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   <>
-    <header className="sticky top-0 z-50 flex h-24 items-center justify-between bg-white shadow-lg">
-      <Link
-        to="/"
-        className="flex items-center gap-8 px-8 font-serif text-xl lg:text-3xl"
-      >
-        <img src={logo} alt="Awesome Product" className="w-8 lg:w-12" />
-        <title className="flex gap-2">
-          <span>Awesome</span>
-          <span className="text-gray-500">Product</span>
-        </title>
-      </Link>
-      <nav>
-        <ul className="flex flex-row items-center gap-8 px-8 py-4 text-lg text-gray-700">
-          <li className="hidden lg:block">
-            <Link to="#how">How does it work?</Link>
-          </li>
-          <li className="hidden lg:block">
-            <Link to="#why">Why use Awesome Product?</Link>
-          </li>
-        </ul>
-      </nav>
+    <header className="sticky top-0 z-50 flex h-24 bg-white shadow-lg">
+      <div className="size-lg-short flex items-center justify-between">
+        <Link to="/" className="headline4 flex items-center gap-8 font-serif">
+          <img src={logo} alt="Awesome Product" className="w-8 lg:w-12" />
+          <title className="flex gap-2">
+            <span>Awesome</span>
+            <span className="text-emph-sm">Product</span>
+          </title>
+        </Link>
+        <nav>
+          <ul className="headline6 flex flex-row items-center gap-8">
+            <li className="hidden lg:block">
+              <Link to="#how">How does it work?</Link>
+            </li>
+            <li className="hidden lg:block">
+              <Link to="#why">Why use Awesome Product?</Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main className="py-8">{children}</main>
     <footer>
