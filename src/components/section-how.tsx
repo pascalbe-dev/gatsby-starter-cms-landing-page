@@ -25,11 +25,11 @@ const HowSection: React.FC<PageProps> = () => (
     <div className="size-lg flex items-center justify-between gap-16">
       <img
         src={how}
-        alt="Step to get the value from Awesome Product"
+        alt="Step to get the value from YOURProduct"
         className="hidden max-h-[500px] min-h-[300px] lg:block"
       />
       <div className="flex flex-col justify-between gap-8">
-        <h2 className="headline4">How does Awesome Product work?</h2>
+        <h2 className="headline4">How does YOURProduct work?</h2>
         <ul data-sal="slide-up" className="flex flex-1 flex-col gap-4">
           {steps.map((vp) => (
             <li key={vp.title} className="flex flex-col gap-4 p-4">

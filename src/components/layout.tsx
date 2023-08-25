@@ -7,9 +7,9 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
     <header className="sticky top-0 z-50 flex h-24 bg-white shadow-lg">
       <div className="size-lg-reduced flex items-center justify-between">
         <Link to="/" className="headline4 flex items-center gap-8 font-serif">
-          <img src={logo} alt="Awesome Product" className="w-8 lg:w-12" />
+          <img src={logo} alt="YOURProduct" className="w-8 lg:w-12" />
           <title className="flex gap-2">
-            <span>Awesome</span>
+            <span>YOUR</span>
             <span className="text-emph-sm">Product</span>
           </title>
         </Link>
@@ -19,7 +19,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
               <Link to="#how">How does it work?</Link>
             </li>
             <li className="hidden lg:block">
-              <Link to="#why">Why use Awesome Product?</Link>
+              <Link to="#why">Why use YOURProduct?</Link>
             </li>
           </ul>
         </nav>
@@ -30,7 +30,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
       <section className="size-lg body2 flex items-center justify-between gap-4">
         <div className="flex flex-col gap-4">
           <div className="font-display">
-            <span>Awesome Product</span>
+            <span>YOURProduct</span>
           </div>
         </div>
         <div className="flex flex-col gap-2">

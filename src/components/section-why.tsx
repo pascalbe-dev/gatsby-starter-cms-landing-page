@@ -22,7 +22,7 @@ const valuePropositions: { title: string; description: string }[] = [
 
 const WhySection: React.FC<PageProps> = () => (
   <section id="why" className="size-lg flex flex-col gap-8">
-    <h2 className="headline4">Why should you use Awesome Product?</h2>
+    <h2 className="headline4">Why should you use YOURProduct?</h2>
     <div className="flex justify-between gap-8">
       <ul data-sal="slide-up" className="flex flex-1 flex-col gap-4">
         {valuePropositions.map((vp) => (
@@ -35,7 +35,7 @@ const WhySection: React.FC<PageProps> = () => (
       <div className="hidden flex-1 items-center justify-center lg:flex">
         <img
           src={why}
-          alt="Reasons to use Awesome Product"
+          alt="Reasons to use YOURProduct"
           className="max-h-[500px] min-h-[300px]"
         />
       </div>
