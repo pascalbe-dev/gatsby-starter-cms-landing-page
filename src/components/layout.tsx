@@ -42,7 +42,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
               </Link>
             </li>
             <li>
-              <Link to="/impressum">Impressum</Link>
+              <Link to="/imprint">Imprint</Link>
             </li>
           </ul>
         </div>

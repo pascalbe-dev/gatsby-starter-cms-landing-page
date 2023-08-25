@@ -61,7 +61,7 @@ const props: React.ComponentProps<typeof OnlyTextSection> = {
   ],
 };
 
-const ImpressumPage: React.FC = () => {
+const ImprintPage: React.FC = () => {
   return (
     <Layout>
       <OnlyTextSection {...props}></OnlyTextSection>
@@ -69,11 +69,11 @@ const ImpressumPage: React.FC = () => {
   );
 };
 
-export default ImpressumPage;
+export default ImprintPage;
 
 export const Head = () => (
   <>
-    <title>Product - Impressum</title>
+    <title>Product - Imprint</title>
     <html lang="en" className="scroll-p-24 scroll-smooth" />
   </>
 );
