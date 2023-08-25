@@ -33,7 +33,7 @@ export const OnlyTextSection: React.FC<Props> = ({
     <section
       data-sal={animateContent ? "slide-up" : undefined}
       data-sal-duration="700"
-      className={`m-auto px-4 ${heightClass} ${widthClass} ${textAlignClass}`}
+      className={`m-auto break-words px-4 ${heightClass} ${widthClass} ${textAlignClass}`}
     >
       <h1 className="headline3 my-8">{title}</h1>
       <div className="flex flex-col">
