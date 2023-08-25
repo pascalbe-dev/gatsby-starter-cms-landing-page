@@ -16,6 +16,7 @@ const config: GatsbyConfig = {
     "gatsby-plugin-postcss",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
+    "gatsby-plugin-robots-txt",
     "gatsby-plugin-scroll-reveal",
     {
       resolve: "gatsby-plugin-manifest",
