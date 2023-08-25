@@ -2,8 +2,11 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `gatsby-starter-cms-landing-page`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: "YOURProduct",
+    description: "YOURProduct: Increase conversion by up to 200%",
+    copyright: "2023 Max Mustermann",
+    contact: "max@mustermann.de",
+    siteUrl: "https://gatsby-starter-cms-landing-page.netlify.app",
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
@@ -17,6 +20,12 @@ const config: GatsbyConfig = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
+        name: `YOURProduct: Increase conversion by up to 200%`,
+        short_name: `YOURProduct`,
+        start_url: `/`,
+        background_color: "#FFFFFF",
+        theme_color: "#4B8C91",
+        display: "standalone",
         icon: "src/images/logo.svg",
       },
     },
