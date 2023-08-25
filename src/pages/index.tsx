@@ -29,8 +29,8 @@ export default IndexPage;
 
 export const Head = () => (
   <>
-    <title>Awesome Product: Increase conversion by up to 200%</title>
-    <html lang="en" className="scroll-smooth scroll-p-24" />
+    <title>Product - Increase conversion by up to 200%</title>
+    <html lang="en" className="scroll-p-24 scroll-smooth" />
   </>
 );
 

@@ -12,7 +12,7 @@ html {
     @apply text-[96px] font-light tracking-tighter;
   }
   .headline2 {
-    @apply text[60px] font-light tracking-tight;
+    @apply text-[60px] font-light tracking-tight;
   }
   .headline3 {
     @apply text-[48px] font-normal;
@@ -46,5 +46,17 @@ html {
   }
   .overline {
     @apply text-[10px] font-normal uppercase tracking-wider;
+  }
+  .btn-primary {
+    @apply button rounded-lg bg-teal-800 p-4 text-white;
+  }
+  .text-emph-md {
+    @apply text-black/80;
+  }
+  .size-lg {
+    @apply m-auto max-w-[96rem];
+  }
+  .size-full {
+    @apply w-full;
   }
 }
