@@ -1,13 +1,13 @@
-import { Link, PageProps } from "gatsby";
+import { Link } from "gatsby";
 import * as React from "react";
 import logo from "../images/logo.svg";
 
-const Layout: React.FC<PageProps> = ({ children }) => (
+const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   <>
-    <header className="flex justify-between items-center shadow-lg bg-white z-50 h-24 sticky top-0">
+    <header className="sticky top-0 z-50 flex h-24 items-center justify-between bg-white shadow-lg">
       <Link
         to="/"
-        className="px-8 flex items-center gap-8 text-xl lg:text-3xl font-serif"
+        className="flex items-center gap-8 px-8 font-serif text-xl lg:text-3xl"
       >
         <img src={logo} alt="Awesome Product" className="w-8 lg:w-12" />
         <title className="flex gap-2">
@@ -16,7 +16,7 @@ const Layout: React.FC<PageProps> = ({ children }) => (
         </title>
       </Link>
       <nav>
-        <ul className="flex flex-row items-center gap-8 py-4 px-8 text-lg text-gray-700">
+        <ul className="flex flex-row items-center gap-8 px-8 py-4 text-lg text-gray-700">
           <li className="hidden lg:block">
             <Link to="#how">How does it work?</Link>
           </li>
@@ -28,7 +28,7 @@ const Layout: React.FC<PageProps> = ({ children }) => (
     </header>
     <main>{children}</main>
     <footer>
-      <section className="flex items-center justify-between gap-4 p-8 lg:p-16 text-sm bg-slate-700 text-white">
+      <section className="flex items-center justify-between gap-4 bg-slate-700 p-8 text-sm text-white lg:p-16">
         <div className="flex flex-col gap-4">
           <div className="font-display">
             <span>Awesome Product</span>
@@ -50,7 +50,7 @@ const Layout: React.FC<PageProps> = ({ children }) => (
           </ul>
         </div>
       </section>
-      <section className="flex flex-col lg:flex-row items-start lg:items-center gap-4 lg:gap-0 justify-between p-2 lg:p-4 text-xs bg-slate-900 text-gray-300 text-start">
+      <section className="flex flex-col items-start justify-between gap-4 bg-slate-900 p-2 text-start text-xs text-gray-300 lg:flex-row lg:items-center lg:gap-0 lg:p-4">
         <span className="uppercase">© copyright 2023 Your Company</span>
         <span className="uppercase">made with ❤ by your company</span>
       </section>

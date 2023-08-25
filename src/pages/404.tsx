@@ -1,27 +1,32 @@
-import { HeadFC, Link, PageProps } from "gatsby";
+import { HeadFC } from "gatsby";
 import * as React from "react";
+import Layout from "../components/layout";
+import { OnlyTextSection } from "../components/section-only-text";
 
-const NotFoundPage: React.FC<PageProps> = () => {
+const props: React.ComponentProps<typeof OnlyTextSection> = {
+  title: "404",
+  textAlign: "center",
+  requiresMinHeight: true,
+  textParts: [
+    {
+      text: "Die gesuchte Seite gibt es leider nicht (mehr). Das tut uns leid.",
+      type: "text",
+    },
+    {
+      text: "Nutze bitte die Navigationselemente, um zurück zu gelangen.",
+      type: "text",
+    },
+  ],
+};
+
+const NotFoundPage: React.FC = () => {
   return (
-    <main>
-      <h1>Page not found</h1>
-      <p>
-        Sorry 😔, we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
+    <Layout>
+      <OnlyTextSection {...props}></OnlyTextSection>
+    </Layout>
   );
 };
 
 export default NotFoundPage;
 
-export const Head: HeadFC = () => <title>Not found</title>;
+export const Head: HeadFC = () => <title>Product: 404</title>;
