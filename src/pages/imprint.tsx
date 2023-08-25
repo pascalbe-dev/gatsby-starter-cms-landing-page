@@ -4,7 +4,7 @@ import { OnlyTextSection } from "../components/section-only-text";
 
 const props: React.ComponentProps<typeof OnlyTextSection> = {
   title: "Impressum",
-  textAlign: "left",
+  width: "medium",
   textParts: [
     { text: "Angaben gemäß §5 TMG", type: "heading" },
     { text: "Max Mustermann", type: "text" },
