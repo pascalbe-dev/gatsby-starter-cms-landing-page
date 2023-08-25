@@ -12,6 +12,10 @@ module.exports = {
         sans: ["Lato", ...defaultTheme.fontFamily.sans],
         serif: ["Itim", ...defaultTheme.fontFamily.serif],
       },
+      colors: {
+        primary: "#614BC3",
+        secondary: "#33BBC5",
+      },
     },
   },
   plugins: [],
