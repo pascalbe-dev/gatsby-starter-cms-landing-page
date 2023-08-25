@@ -9,6 +9,7 @@ This site uses these technologies to achieve a great developer experience and ea
 - website creation framework [Gatsby](https://www.gatsbyjs.com/)
 - type checking during development via [Typescript](https://www.typescriptlang.org/)
 - website hosting via [Netlify](https://www.netlify.com/)
+- form submissions via [Netlify Forms](https://www.netlify.com/products/forms/)
 - styling via [Tailwind CSS](https://tailwindcss.com/)
 - fonts via [Google Fonts](https://fonts.google.com/) (but served locally or via Netlify)
 - formatting via [Prettier](https://prettier.io/)
