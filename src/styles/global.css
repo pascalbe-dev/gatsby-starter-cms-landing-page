@@ -59,6 +59,9 @@ html {
   .text-emph-md-negative {
     @apply text-white/75;
   }
+  .text-emph-sm-negative {
+    @apply text-white/60;
+  }
   .size-lg-short {
     @apply m-auto max-w-[96rem] px-4 lg:w-[96rem];
   }

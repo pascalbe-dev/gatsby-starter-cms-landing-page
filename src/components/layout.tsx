@@ -26,8 +26,8 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
       </div>
     </header>
     <main className="py-8">{children}</main>
-    <footer>
-      <section className="flex items-center justify-between gap-4 bg-slate-700 p-8 text-sm text-white lg:p-16">
+    <footer className="bg-slate-700 text-white">
+      <section className="size-lg body2 flex items-center justify-between gap-4">
         <div className="flex flex-col gap-4">
           <div className="font-display">
             <span>Awesome Product</span>
@@ -47,9 +47,11 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
           </ul>
         </div>
       </section>
-      <section className="flex flex-col items-start justify-between gap-4 bg-slate-900 p-2 text-start text-xs text-gray-300 lg:flex-row lg:items-center lg:gap-0 lg:p-4">
-        <span className="uppercase">© copyright 2023 Your Company</span>
-        <span className="uppercase">made with ❤ by your company</span>
+      <section className="body2 text-emph-sm-negative bg-slate-900 text-start">
+        <div className="size-lg-short flex flex-col items-start justify-between gap-4 py-2 lg:flex-row lg:items-center">
+          <span className="uppercase">© copyright 2023 Your Company</span>
+          <span className="uppercase">made with ❤ by your company</span>
+        </div>
       </section>
     </footer>
   </>
