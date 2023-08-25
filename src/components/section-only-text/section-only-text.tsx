@@ -21,11 +21,11 @@ export const OnlyTextSection: React.FC<Props> = ({
   const heightClass = requiresMinHeight ? "min-h-[calc(100vh-288px)]" : "";
   const widthClass =
     width === "small"
-      ? "max-w-3xl"
+      ? "size-sm"
       : width === "medium"
-      ? "max-w-5xl"
+      ? "size-md"
       : width === "large"
-      ? "max-w-7xl"
+      ? "size-lg"
       : "";
   const textAlignClass = textAlign === "center" ? "text-center" : "text-left";
 

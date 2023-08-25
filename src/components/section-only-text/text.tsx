@@ -6,7 +6,7 @@ interface Props {
 }
 
 export const Text: React.FC<Props> = ({ text, link }) => (
-  <p className="body">
+  <p className="body text-emph-md">
     {link ? (
       <a
         href={link}

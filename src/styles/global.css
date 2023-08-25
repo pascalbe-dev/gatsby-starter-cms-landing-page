@@ -62,7 +62,13 @@ html {
   .text-emph-sm-negative {
     @apply text-white/60;
   }
-  .size-lg-short {
+  .size-sm {
+    @apply m-auto max-w-[48rem] px-4 py-8 lg:w-[48rem] lg:py-16;
+  }
+  .size-md {
+    @apply m-auto max-w-[64rem] px-4 py-8 lg:w-[64rem] lg:py-16;
+  }
+  .size-lg-reduced {
     @apply m-auto max-w-[96rem] px-4 lg:w-[96rem];
   }
   .size-lg {
