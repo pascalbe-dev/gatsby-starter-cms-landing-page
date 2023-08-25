@@ -45,7 +45,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
           </ul>
         </div>
       </section>
-      <section className="text-emph-sm-negative bg-slate-900 text-start overline">
+      <section className="text-emph-sm-negative caption bg-slate-900 text-start">
         <div className="size-lg-reduced flex flex-col items-start justify-between gap-4 py-2 lg:flex-row lg:items-center">
           <span>© copyright 2023 Your Company</span>
           <span>made with ❤ by your company</span>
