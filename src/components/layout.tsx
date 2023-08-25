@@ -45,10 +45,10 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
           </ul>
         </div>
       </section>
-      <section className="body2 text-emph-sm-negative bg-slate-900 text-start">
+      <section className="text-emph-sm-negative bg-slate-900 text-start overline">
         <div className="size-lg-reduced flex flex-col items-start justify-between gap-4 py-2 lg:flex-row lg:items-center">
-          <span className="uppercase">© copyright 2023 Your Company</span>
-          <span className="uppercase">made with ❤ by your company</span>
+          <span>© copyright 2023 Your Company</span>
+          <span>made with ❤ by your company</span>
         </div>
       </section>
     </footer>
