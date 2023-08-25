@@ -1,4 +1,3 @@
-import { PageProps } from "gatsby";
 import * as React from "react";
 import how from "../images/how.svg";
 
@@ -20,7 +19,7 @@ const steps: { title: string; description: string }[] = [
   },
 ];
 
-const HowSection: React.FC<PageProps> = () => (
+const HowSection: React.FC = () => (
   <section id="how" className="bg-primary text-white">
     <div className="size-lg flex items-center justify-between gap-16">
       <img

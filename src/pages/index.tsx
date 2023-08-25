@@ -1,6 +1,7 @@
 import { PageProps, graphql } from "gatsby";
 import * as React from "react";
 import Layout from "../components/layout";
+import ContactFormSection from "../components/section-contact-form";
 import HowSection from "../components/section-how";
 import LandingSection from "../components/section-landing";
 import WhySection from "../components/section-why";
@@ -21,6 +22,8 @@ const IndexPage: React.FC<PageProps<any>> = ({ data }) => {
       <LandingSection indexData={frontmatter}></LandingSection>
       <HowSection></HowSection>
       <WhySection></WhySection>
+      <div className="h-32 w-full bg-secondary"></div>
+      <ContactFormSection></ContactFormSection>
     </Layout>
   );
 };

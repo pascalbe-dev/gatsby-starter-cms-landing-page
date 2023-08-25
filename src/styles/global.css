@@ -74,4 +74,7 @@ html {
   .size-lg {
     @apply m-auto max-w-[96rem] px-4 py-8 lg:w-[96rem] lg:py-16;
   }
+  .input {
+    @apply invalid:border-error mt-2 w-full rounded-lg bg-gray-100 p-3 text-gray-900 focus:outline-none;
+  }
 }

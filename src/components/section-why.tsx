@@ -1,4 +1,3 @@
-import { PageProps } from "gatsby";
 import * as React from "react";
 import why from "../images/why.svg";
 
@@ -20,7 +19,7 @@ const valuePropositions: { title: string; description: string }[] = [
   },
 ];
 
-const WhySection: React.FC<PageProps> = () => (
+const WhySection: React.FC = () => (
   <section id="why" className="size-lg flex flex-col gap-8">
     <h2 className="headline4">Why should you use YOURProduct?</h2>
     <div className="flex justify-between gap-8">

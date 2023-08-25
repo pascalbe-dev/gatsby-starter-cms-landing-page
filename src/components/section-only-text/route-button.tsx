@@ -7,7 +7,9 @@ interface Props {
 }
 
 export const RouteButton: React.FC<Props> = ({ text, path }) => (
-  <Link to={path} className="btn-primary">
-    {text}
-  </Link>
+  <div>
+    <Link to={path} className="btn-primary">
+      {text}
+    </Link>
+  </div>
 );
