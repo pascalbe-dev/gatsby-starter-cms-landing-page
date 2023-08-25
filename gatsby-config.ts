@@ -11,7 +11,6 @@ const config: GatsbyConfig = {
   graphqlTypegen: true,
   plugins: [
     "gatsby-plugin-postcss",
-    "gatsby-plugin-percy",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-scroll-reveal",
@@ -40,6 +39,8 @@ const config: GatsbyConfig = {
       },
       __key: "pages",
     },
+    // make sure to keep it last in the array
+    "gatsby-plugin-netlify",
   ],
 };
 
