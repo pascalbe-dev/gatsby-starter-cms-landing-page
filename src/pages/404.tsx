@@ -29,4 +29,4 @@ const NotFoundPage: React.FC = () => {
 
 export default NotFoundPage;
 
-export const Head: HeadFC = () => <title>Product: 404</title>;
+export const Head: HeadFC = () => <title>Product - 404</title>;

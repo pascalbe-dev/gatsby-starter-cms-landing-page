@@ -26,7 +26,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
         </ul>
       </nav>
     </header>
-    <main>{children}</main>
+    <main className="py-8">{children}</main>
     <footer>
       <section className="flex items-center justify-between gap-4 bg-slate-700 p-8 text-sm text-white lg:p-16">
         <div className="flex flex-col gap-4">
@@ -43,9 +43,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
               </Link>
             </li>
             <li>
-              <Link to="/" target="_blank">
-                Imprint
-              </Link>
+              <Link to="/impressum">Impressum</Link>
             </li>
           </ul>
         </div>
