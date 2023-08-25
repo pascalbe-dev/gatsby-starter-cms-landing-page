@@ -7,7 +7,7 @@ import { IndexSubpageProps } from "../pages";
 const LandingSection: React.FC<IndexSubpageProps> = ({ indexData }) => (
   <section className="size-lg flex h-[calc(100vh-96px)] flex-col justify-around">
     <div className="hidden lg:block" />
-    <div className="flex items-center justify-between gap-16 px-8 py-8 lg:px-24 lg:py-0">
+    <div className="flex items-center justify-between gap-16 py-8 lg:py-0">
       <div
         data-sal="slide-up"
         className="flex flex-1 flex-col items-start gap-8"
