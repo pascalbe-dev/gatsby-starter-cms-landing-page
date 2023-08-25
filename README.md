@@ -10,6 +10,7 @@ This site uses these technologies to achieve a great developer experience and ea
 - type checking during development via [Typescript](https://www.typescriptlang.org/)
 - website hosting via [Netlify](https://www.netlify.com/)
 - form submissions via [Netlify Forms](https://www.netlify.com/products/forms/)
+- analytics via [Matomo](https://matomo.org/)
 - styling via [Tailwind CSS](https://tailwindcss.com/)
 - fonts via [Google Fonts](https://fonts.google.com/) (but served locally or via Netlify)
 - formatting via [Prettier](https://prettier.io/)
@@ -55,3 +56,15 @@ To get started, follow [their usage guide](https://github.com/solublestudio/gats
 - adjust the imported fonts in the [gatsby-browser.ts](gatsby-browser.ts) file
 - adjust the tailwind defaults in the [tailwind.config.js](tailwind.config.js) file
 - restart the gatsby development server
+
+## Setting up Matomo analytics
+
+- make sure, you have an account for Matomo
+- add a new website via the `Administration` > `Measurables` > `Manage` options in the Matomo UI
+- configure the site
+  - give a meaningful name
+  - add the URL from which you want the website to be publicly accessed
+  - use the `only track visits and actions when the action URL starts with ...` setting
+  - leave the rest as default
+- comment in the matomo plugin in the [gatsby config](./gatsby-config.ts)
+- use the matomo URL and the site ID from your Matomo configuration

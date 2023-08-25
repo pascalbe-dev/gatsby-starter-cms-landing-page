@@ -1,12 +1,14 @@
 import type { GatsbyConfig } from "gatsby";
 
+const siteUrl = "https://gatsby-starter-cms-landing-page.netlify.app";
+
 const config: GatsbyConfig = {
   siteMetadata: {
     title: "YOURProduct",
     description: "YOURProduct: Increase conversion by up to 200%",
     copyright: "2023 Max Mustermann",
     contact: "max@mustermann.de",
-    siteUrl: "https://gatsby-starter-cms-landing-page.netlify.app",
+    siteUrl,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
@@ -49,6 +51,18 @@ const config: GatsbyConfig = {
       },
       __key: "pages",
     },
+    // {
+    //   resolve: "gatsby-plugin-matomo",
+    //   options: {
+    //     siteId: "0",
+    //     matomoUrl: "https://xy.matomo.cloud",
+    //     siteUrl,
+    //     disableCookies: true,
+    //     enableJSErrorTracking: true,
+    //     respectDnt: true,
+    //     trackLoad: false,
+    //   },
+    // },
     // make sure to keep it last in the array
     "gatsby-plugin-netlify",
   ],
