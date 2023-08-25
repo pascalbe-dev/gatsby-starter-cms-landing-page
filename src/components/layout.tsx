@@ -25,7 +25,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
         </nav>
       </div>
     </header>
-    <main className="py-8">{children}</main>
+    <main>{children}</main>
     <footer className="bg-slate-700 text-white">
       <section className="size-lg body2 flex items-center justify-between gap-4">
         <div className="flex flex-col gap-4">
