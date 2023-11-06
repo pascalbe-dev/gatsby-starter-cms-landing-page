@@ -41,9 +41,9 @@
   "devDependencies": {
     "@commitlint/cli": "18.2.0",
     "@commitlint/config-conventional": "18.1.0",
-    "@percy/cli": "1.27.3",
-    "@types/node": "20.8.9",
-    "@types/react": "18.2.33",
+    "@percy/cli": "1.27.4",
+    "@types/node": "20.8.10",
+    "@types/react": "18.2.35",
     "@types/react-dom": "18.2.14",
     "autoprefixer": "10.4.16",
     "gatsby-plugin-netlify": "5.1.1",
